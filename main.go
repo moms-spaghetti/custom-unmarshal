@@ -22,7 +22,7 @@ func (i *identity) UnmarshalJSON(b []byte) error {
 		return err
 	}
 
-	// custome setting of identity here
+	// custom setting of identity here
 	index := 0
 	for _, v := range aux.Identity {
 		i.Identity += v
